@@ -35,19 +35,19 @@ function getResults(error, results) {
 
         speak();
 
-        if (prediction == "V For Victory") {
+        if (prediction == "Spock") {
             document.getElementById("emojiResult").innerHTML = "&#128406";
         }
-        if (prediction == "Thumbs Up") {
+        if (prediction == "Yo Man") {
             document.getElementById("emojiResult").innerHTML = "&#129304";
         }
         if (prediction == "Superb") {
             document.getElementById("emojiResult").innerHTML = "&#128076";
         }
-        if (prediction == "Yo Man") {
+        if (prediction == "Thumbs Up") {
             document.getElementById("emojiResult").innerHTML = "&#128077";
         }
-        if (prediction == "Spock") {
+        if (prediction == "V For Victory") {
             document.getElementById("emojiResult").innerHTML = "&#9996";
         }
     }
