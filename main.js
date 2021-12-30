@@ -19,7 +19,7 @@ function modelLoaded() {
     console.log("Model Loaded");
 }
 
-function check() {
+function predict() {
     img = document.getElementById("capturedImage");
     classifier.classify(img, getResults);
 }
